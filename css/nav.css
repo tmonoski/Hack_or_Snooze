@@ -1,0 +1,34 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 30px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  padding-right: 10px;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+  font-weight: 600;
+}
+
+#nav-submit,
+#nav-favorites,
+#nav-my-stories {
+  font-weight: 600;
+}
+
+b {
+  font-weight: 800;
+}
